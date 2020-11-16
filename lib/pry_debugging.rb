@@ -1,4 +1,7 @@
+require 'pry'
+
 def plus_two(num)
-	num + 2
-	num
+	puts num.to_i + 2
 end
+
+plus_two("3")
